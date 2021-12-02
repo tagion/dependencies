@@ -1,0 +1,15 @@
+.DS_Store
+
+.tmp
+build
+
+*~
+*#
+.#*
+*~
+local.*
+gen.*
+
+*.parked
+# Root marker
+.root

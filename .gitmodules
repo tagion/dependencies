@@ -1,0 +1,81 @@
+[submodule "tub"]
+	path = tub
+	url = git@github.com:tagion/tub.git
+[submodule "src/lib-basic"]
+	path = src/lib-basic
+	url = git@github.com:tagion/core-lib-basic
+[submodule "src/lib-logger"]
+	path = src/lib-logger
+	url = git@github.com:tagion/core-lib-logger
+[submodule "src/lib-monitor"]
+	path = src/lib-monitor
+	url = git@github.com:tagion/core-lib-monitor
+[submodule "src/lib-communication"]
+	path = src/lib-communication
+	url = git@github.com:tagion/core-lib-communication
+[submodule "src/lib-crypto"]
+	path = src/lib-crypto
+	url = git@github.com:tagion/core-lib-crypto
+[submodule "src/lib-dart"]
+	path = src/lib-dart
+	url = git@github.com:tagion/core-lib-dart
+[submodule "src/lib-funnel"]
+	path = src/lib-funnel
+	url = git@github.com:tagion/core-lib-funnel
+[submodule "src/lib-gossip"]
+	path = src/lib-gossip
+	url = git@github.com:tagion/core-lib-gossip
+[submodule "src/lib-hashgraph"]
+	path = src/lib-hashgraph
+	url = git@github.com:tagion/core-lib-hashgraph
+[submodule "src/lib-hibon"]
+	path = src/lib-hibon
+	url = git@github.com:tagion/core-lib-hibon
+[submodule "src/lib-network"]
+	path = src/lib-network
+	url = git@github.com:tagion/core-lib-network
+[submodule "src/lib-p2pgowrapper"]
+	path = src/lib-p2pgowrapper
+	url = git@github.com:tagion/core-lib-p2pgowrapper
+[submodule "src/lib-options"]
+	path = src/lib-options
+	url = git@github.com:tagion/core-lib-options
+[submodule "src/lib-services"]
+	path = src/lib-services
+	url = git@github.com:tagion/core-lib-services
+[submodule "src/lib-utils"]
+	path = src/lib-utils
+	url = git@github.com:tagion/core-lib-utils
+[submodule "src/lib-wallet"]
+	path = src/lib-wallet
+	url = git@github.com:tagion/core-lib-wallet
+[submodule "src/wrap-openssl"]
+	path = src/wrap-openssl
+	url = git@github.com:tagion/core-wrap-openssl
+[submodule "src/wrap-p2pgowrapper"]
+	path = src/wrap-p2pgowrapper
+	url = git@github.com:tagion/core-wrap-p2pgowrapper
+[submodule "src/wrap-secp256k1"]
+	path = src/wrap-secp256k1
+	url = git@github.com:tagion/core-wrap-secp256k1
+[submodule "src/lib-wasm"]
+	path = src/lib-wasm
+	url = git@github.com:tagion/core-lib-wasm
+[submodule "src/bin-hibonutil"]
+	path = src/bin-hibonutil
+	url = git@github.com:tagion/core-bin-hibonutil
+[submodule "src/bin-wallet"]
+	path = src/bin-wallet
+	url = git@github.com:tagion/core-bin-wallet
+[submodule "src/bin-wave"]
+	path = src/bin-wave
+	url = git@github.com:tagion/core-bin-wave
+[submodule "src/bin-dartutil"]
+	path = src/bin-dartutil
+	url = git@github.com:tagion/core-bin-dartutil
+[submodule "src/bin-boot"]
+	path = src/bin-boot
+	url = git@github.com:tagion/core-bin-boot
+[submodule "src/bin-wasmutil"]
+	path = src/bin-wasmutil
+	url = git@github.com:tagion/core-bin-wasmutil

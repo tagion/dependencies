@@ -1,0 +1,13 @@
+[alias]
+	all = !git submodule foreach --recursive $@ "#"
+	root = rev-parse --show-toplevel
+	scommit = !git submodule foreach --recursive git commit '$@' "#"
+	spull = pull --recurse-submodules
+	spush = !git submodule foreach --recusrive push
+	getroot = !test -e .root && pwd || (cd .. && git goroot)
+	ldiff1 = !git --no-pager diff --name-only
+	conflicts = ls-files -u
+	ldiff = !git --no-pager diff --name-only
+	leafs = !git --no-pager branch
+	info = config --get remote.origin.url
+	hash = rev-parse HEAD
